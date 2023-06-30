@@ -1,0 +1,91 @@
+.form {
+  background-color: white;
+  padding: 3.125em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 30%;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+.signup {
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+.forminput {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
+.forminput:focus {
+  border: 1px solid #639;
+  outline: none;
+}
+
+.formmarketing {
+  display: flex;
+  margin-bottom: 1.25em;
+  align-items: center;
+}
+
+.formmarketing > input {
+  margin-right: 0.625em;
+}
+.formmarketing > a {
+  margin-left: 10px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #639;
+  font-size: small;
+}
+.formmarketing > label,
+.formmarketing > p {
+  color: grey;
+}
+
+.checkbox {
+  accent-color: #639;
+}
+
+.formsubmit {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: 1px dashed #639;
+  cursor: pointer;
+}
+
+.formsubmit:hover {
+  color: #639;
+  background-color: white;
+  border: 1px dashed #639;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.loginmessage {
+  margin-top: 20px;
+}
