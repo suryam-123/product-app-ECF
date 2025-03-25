@@ -23,7 +23,7 @@ export default function Home() {
       });
       const data = await response.json();
 
-      if (data.token) {
+      if (data.accessToken) {
         // setMessage("Login successful!");
         // Redirect to another page or perform other actions
         router.push("/products?page=recent");

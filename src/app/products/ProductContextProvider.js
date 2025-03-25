@@ -13,10 +13,10 @@ const MyContextProvider = ({ children }) => {
     price: 0,
     stock: 0,
     brand: "",
-    thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+    thumbnail: "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
     discountPercentage: 0,
     category: "",
-    images: ["https://i.dummyjson.com/data/products/1/thumbnail.jpg"],
+    images: ["https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"],
   });
   // Provide the states and update functions through the context
   const contextValues = {
